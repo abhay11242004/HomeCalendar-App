@@ -1,10 +1,12 @@
 # HomeCalendar-App
 ## Project Context
-Developed as a group project for [Course Name] at [Institution]. The app aims to simplify scheduling and collaboration by offering features for personal and shared calendars.
+Developed as a group project a HomeCalendar app. The app aims to simplify schedule an event by offering features for a personal calendar.
 
 ## Description
-A responsive web app for scheduling, sharing, and managing events. Designed for students and teams, it includes:
-
-Event Management: Create, edit, and delete events.
-Shared Calendars: Collaborate with others.
+It's a responsive web app for scheduling and managing events. The app includes:
+<ul>
+  <li>Event Management: Create, edit, and delete events.</li>
+  <li>Search System: Able to search for events by filtering data by for example category</li>
+  <li></li>
+</ul>
 Reminders: Notifications for upcoming events.
