@@ -7,5 +7,5 @@ It's a responsive GUI web app for scheduling and managing events. The app was bu
 <ul>
   <li>Event Management: Create, edit, and delete events.</li>
   <li>Search System: Able to search for events by filtering data by for example category.</li>
-  <li>Storing Data: Stores all the events using SQLite.</li>
+  <li>Storing Data: Stores all the events and categories using SQLite.</li>
 </ul>
