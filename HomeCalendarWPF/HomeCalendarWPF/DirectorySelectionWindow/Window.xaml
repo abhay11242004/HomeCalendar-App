@@ -1,0 +1,50 @@
+﻿<Window x:Class="HomeCalendarWPF.DirectorySelection.Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HomeCalendarWPF"
+        mc:Ignorable="d"
+        Title="Home Calendar App"
+        SizeToContent="WidthAndHeight"
+        MouseDown="Window_MouseDown">
+    <Border Background="{StaticResource darkBackground}" Padding="100, 20">
+        <StackPanel TextBlock.Foreground="{StaticResource darkForeground}">
+            <TextBlock FontSize="36" FontWeight="DemiBold" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Welcome to your calendar!" Margin="0, 24" />
+            <TextBlock FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Select file name and directory of your save data" />
+            <Grid TextBlock.FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0, 60, 0, 00">
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto" />
+                    <ColumnDefinition Width="auto" />
+                    <ColumnDefinition Width="auto" />
+                </Grid.ColumnDefinitions>
+                <Grid.Resources>
+                    <Style TargetType="TextBlock">
+                        <Setter Property="HorizontalAlignment" Value="Center" />
+                    </Style>
+                </Grid.Resources>
+                <TextBlock Text="Directory" Margin="0, 0, 0, 5" />
+                <TextBlock Grid.Column="2" Text="File Name" Margin="0, 0, 0, 5" />
+                <Button MinWidth="240" HorizontalAlignment="Center" Grid.Row="1" x:Name="buttonDirectory" Click="ButtonDirectory_Click" Height="30" VerticalAlignment="Top" />
+                <TextBlock Grid.Row="1" Grid.Column="1" Text="\" Margin="10, 0" />
+                <Grid Grid.Row="2" Grid.Column="2" HorizontalAlignment="Left">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto" />
+                        <ColumnDefinition Width="auto" />
+                    </Grid.ColumnDefinitions>
+                    <TextBox BorderBrush="{StaticResource darkBorder}" BorderThickness="{StaticResource darkBorderThickness}" TextBlock.Foreground="{StaticResource darkForeground2}" Background="{StaticResource darkBackground2}" MinWidth="240" x:Name="txb_fileName"/>
+                    <TextBlock Grid.Column="1" x:Name="txb_fileExtension" />
+                </Grid>
+            </Grid>
+            <TextBlock HorizontalAlignment="Center" Foreground="Crimson" FontSize="20" Margin="0,20" x:Name="txb_ErrorMessage" />
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="Continue" FontSize="18" HorizontalAlignment="Center" Padding="10, 5" Margin="0, 0, 20, 20" Click="ContinueButton_Click" />
+                <Button Content="Use Previous File" FontSize="18" HorizontalAlignment="Center" Padding="10, 5" Margin="0, 0, 0, 20" x:Name="btn_PrevFile" Click="PreviousFileButton_Click" />
+            </StackPanel>
+        </StackPanel>
+    </Border>
+</Window>

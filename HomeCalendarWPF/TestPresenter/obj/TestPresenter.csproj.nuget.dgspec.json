@@ -1,0 +1,211 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\abhay\\Downloads\\jacappdev1-2024-rats-feature-homecalendar-wpf\\jacappdev1-2024-rats-feature-homecalendar-wpf\\HomeCalendarWPF\\TestPresenter\\TestPresenter.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\abhay\\Downloads\\jacappdev1-2024-rats-feature-homecalendar-wpf\\jacappdev1-2024-rats-feature-homecalendar-wpf\\HomeCalendarWPF\\HomeCalendarWPF\\HomeCalendarWPF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\abhay\\Downloads\\jacappdev1-2024-rats-feature-homecalendar-wpf\\jacappdev1-2024-rats-feature-homecalendar-wpf\\HomeCalendarWPF\\HomeCalendarWPF\\HomeCalendarWPF.csproj",
+        "projectName": "HomeCalendarWPF",
+        "projectPath": "C:\\Users\\abhay\\Downloads\\jacappdev1-2024-rats-feature-homecalendar-wpf\\jacappdev1-2024-rats-feature-homecalendar-wpf\\HomeCalendarWPF\\HomeCalendarWPF\\HomeCalendarWPF.csproj",
+        "packagesPath": "C:\\Users\\abhay\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abhay\\Downloads\\jacappdev1-2024-rats-feature-homecalendar-wpf\\jacappdev1-2024-rats-feature-homecalendar-wpf\\HomeCalendarWPF\\HomeCalendarWPF\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\abhay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.118, )"
+            },
+            "ini-parser": {
+              "target": "Package",
+              "version": "[2.5.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x86",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
+              "version": "[6.0.33, 6.0.33]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\abhay\\Downloads\\jacappdev1-2024-rats-feature-homecalendar-wpf\\jacappdev1-2024-rats-feature-homecalendar-wpf\\HomeCalendarWPF\\TestPresenter\\TestPresenter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\abhay\\Downloads\\jacappdev1-2024-rats-feature-homecalendar-wpf\\jacappdev1-2024-rats-feature-homecalendar-wpf\\HomeCalendarWPF\\TestPresenter\\TestPresenter.csproj",
+        "projectName": "TestPresenter",
+        "projectPath": "C:\\Users\\abhay\\Downloads\\jacappdev1-2024-rats-feature-homecalendar-wpf\\jacappdev1-2024-rats-feature-homecalendar-wpf\\HomeCalendarWPF\\TestPresenter\\TestPresenter.csproj",
+        "packagesPath": "C:\\Users\\abhay\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abhay\\Downloads\\jacappdev1-2024-rats-feature-homecalendar-wpf\\jacappdev1-2024-rats-feature-homecalendar-wpf\\HomeCalendarWPF\\TestPresenter\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\abhay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\abhay\\Downloads\\jacappdev1-2024-rats-feature-homecalendar-wpf\\jacappdev1-2024-rats-feature-homecalendar-wpf\\HomeCalendarWPF\\HomeCalendarWPF\\HomeCalendarWPF.csproj": {
+                "projectPath": "C:\\Users\\abhay\\Downloads\\jacappdev1-2024-rats-feature-homecalendar-wpf\\jacappdev1-2024-rats-feature-homecalendar-wpf\\HomeCalendarWPF\\HomeCalendarWPF\\HomeCalendarWPF.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
